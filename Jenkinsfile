@@ -1,4 +1,4 @@
-def registry = 'https://valaxy05.jfrog.io'
+// def registry = 'https://valaxy05.jfrog.io'
 pipeline {
     agent {
         node {
@@ -26,8 +26,6 @@ environment {
         }
     }
 }
-		
-
 //     stage('SonarQube analysis') {
 //     environment {
 //       scannerHome = tool 'valaxy-sonar-scanner'
