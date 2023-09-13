@@ -24,7 +24,6 @@ environment {
                  echo "----------- unit test Complted ----------"
             }
         }
-    }
     stage('SonarQube analysis') {
     environment {
       scannerHome = tool 'valaxy-sonar-scanner'
@@ -35,6 +34,7 @@ environment {
     }
     }
   }
+}
 }
   
 //   stage("Quality Gate"){
